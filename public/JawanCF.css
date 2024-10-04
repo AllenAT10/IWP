@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  header {
+    opacity: 2.0;
+    display: flex;
+    align-items: center;
+    padding: 10px 2cm;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 30px;
+    gap: 50px;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+  
+  .login a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px; 
+  }
+  
+  main {
+    background-image: url("2024-08-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    padding-top: 80px; 
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  .banner-text {
+    transform: translate(550px, 25px);
+  }
+  
+  .white {
+    color: white;
+    font-size: 75px;
+  }
+  
+  .red {
+    color: red;
+    font-size: 75px;
+  }
+  
+  p {
+    line-height: 1px;
+  }
+  
+  
